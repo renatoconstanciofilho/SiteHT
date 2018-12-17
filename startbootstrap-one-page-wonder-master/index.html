@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -11,47 +9,53 @@
     <title>Soraia, sua porta para o mercado de criptomoedas</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
     <!-- Custom styles for this template -->
-    <link href="css/one-page-wonder.min.css" rel="stylesheet">
 
+	<link href="css/one-page-wonder.css" rel="stylesheet" />
   </head>
 
   <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Soraia</a>
+        <a class="navbar-brand" id="btn_inicio" href="#topo_pagina">Soraya</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Sign Up</a>
+              <a class="nav-link" id="btn_sobre" href="#sobre" >Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Log In</a>
+              <a class="nav-link" id="btn_vantagens" href="#vantagens">Vantagens</a>
             </li>
+			<!--<li class="nav-item">
+              <a class="nav-link" href="#">Tecnologias</a>
+            </li>-->
+			<li class="nav-item">
+              <a class="nav-link" id="btn_quem_somos" href="#quem_somos">Quem somos</a>
+            </li>
+			<!--<li class="nav-item">
+              <a class="nav-link" id="btn_contato" href="#contato">Contato</a>
+            </li> -->
           </ul>
         </div>
       </div>
     </nav>
 
     <header class="masthead text-center text-white">
-      <div class="masthead-content">
+      <div class="masthead-content content-mod2" id="topo_pagina">
         <img class="robot" src="img/rb.png" alt="">
-        <div class="container">
-          <h1 class="masthead-heading mb-0">Soraia</h1>
+        <div class="container-mod">
+          <h1 class="masthead-heading mb-0">Soraya</h1>
           <h2 class="masthead-subheading mb-0">Sua porta para o mercado de criptomoedas</h2>
-          <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Saiba mais</a>
-          
+          <a id="btn_sobre2" href="#sobre" class="btn btn-primary btn-xl rounded-pill mt-5">Saiba mais</a>
         </div>
       </div>
       <div class="bg-circle-1 bg-circle"></div>
@@ -59,8 +63,37 @@
       <div class="bg-circle-3 bg-circle"></div>
       <div class="bg-circle-4 bg-circle"></div>
     </header>
+	
+    <section id="sobre">  
+	  <br><br><br><br>
+      <div class="container bordas_container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="img/robo.jpeg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div style="font-size: 200%; text-align: justify; font-family: 'Catamaran';">
+              <h2 class="display-4">A Soraya</h2>
+              <p>A idéia do robô Soraya surgiu no programa de capacidação profissional HackaTruck MakerSpace, patrocinado pela IBM e Flex,
+				quando até então, três estranhos se juntaram em torno da mesma idéia, auxiliar as pessoas a investir seu dinheiro.
+				Caetano, Jonathan e Renato, pensaram em tornar mais acessivel o místico mercado das criptomoedas, até hoje ainda desconhecido
+				para grandre parte da população.
+			</p>
+            </div>
+          </div>
+        </div>
+		<div style="font-size: 200%; text-align: justify; font-family: 'Catamaran';">
+		 Usando todas as ferramentas disponíveis no curso criaram a Soraya, uma assistente pessoal para auxiliar com a cotação de criptomoedas.
+			Porem, muito mais coisas estão por vir. Aguardem!
+		</div>
+		<br><br><br><br>
+      </div>
+    </section>
+	<br><br><br><br>
 
-    <section>
+    <section id="vantagens">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 order-lg-2">
@@ -97,7 +130,7 @@
     </section>
 
     <section>
-      <div class="container">
+      <div class="container bordas_container">
         <div class="row align-items-center">
           <div class="col-lg-6 order-lg-2">
             <div class="p-5">
@@ -111,13 +144,92 @@
             </div>
           </div>
         </div>
+		 <br><br><br><br>
       </div>
     </section>
+	<br><br><br><br>
+	
+    <section id="quem_somos">  
+      <!-- <div class="container bordas_container"> -->
+		<div class="container">
+		<center><h2 class="display-4" >Nossa Equipe</h2></center>
+        <div class="row align-items-center">
+		  <div class="col-lg-4">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="img/caetano.jpg" alt="">
+            </div>
+			<div class="titulo_quem_somos">
+              <h5>Caetano Siemann</h5>
+            </div>
+			<div class="texto_quem_somos">
+              Graduando em Ciências da Computação, trabalha atualmente com sua família, usa seu tempo livre em jogos.
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="img/renato.jpg" alt="">
+            </div>
+			<div class="titulo_quem_somos">
+              <h5>Renato Constancio Filho</h5>
+            </div>
+			<div class="texto_quem_somos">
+              Formado em Direito e graduando em Ciências da Computação, apaixonado por tecnologia desde seu
+			  primeiro computador, usa seu tempo livre pesquisando novidades e sempre buscando aprender.
+            </div>
+          </div>
+		  <div class="col-lg-4">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="img/jonathan.jpg" alt="">
+            </div>
+			<div class="titulo_quem_somos">
+              <h5>Jonathan Michels Kuntz</h5>
+            </div>
+			<div class="texto_quem_somos">
+              Graduando em Ciências da Computação, sempre utiliza seu tempo livre em busca novos conehcimentos.
+            </div>
+          </div>
+        </div>
+		<br><br><br><br>
+      </div>
+    </section>
+	<br><br><br><br>
+<!--
+	<section id="contato">  
+      <div class="container formulario">
+		<center><h2 class="display-4">Contato</h2></center>
+		<br><br>
+		<form action="enviar_email.php" name="form_contato" method="post" >
+		<div class="row align-items-center">
+          <div class="col-lg-6">
+			<p> 
+				Nome:<sup class="asteristico">*</sup><br /> 
+				<input type="text" size="150" name="nome" class="input_contato"> 
+			</p>  
+			<p> 
+			    Email:<sup class="asteristico">*</sup><br /> 
+				<input type="text" size="150" name="email" class="input_contato"> 
+			</p>
+			<p> 
+			    Assunto:<sup class="asteristico">*</sup><br /> 
+				<input type="text" size="150" name="assunto" class="input_contato"> 
+			</p>
+		  </div>
+		  <div class="col-lg-6">
+			Observações:<sup class="asteristico">*</sup><br/> 
+			<textarea rows="4" cols="50" name="observacoes" style="height: 208px; resize: none; border-color: #383434;">
+			</textarea>
+		  </div>
+		</div>
+		<input type="submit" name="BTEnvia" value="Enviar" style="background-color: #383434; font-size: 100%; color: #fff;"> 
+		</form>
+	  </div>
+	</section>
+	 <br><br><br><br> -->
 
     <!-- Footer -->
     <footer class="py-5 bg-black">
       <div class="container">
-        <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2018</p>
+        <p class="m-0 text-center text-white small">Copyright &copy; 2018 Grupo09</p>
       </div>
       <!-- /.container -->
     </footer>
@@ -125,6 +237,7 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="vendor/jquery/suave.js"></script>
 
   </body>
 
